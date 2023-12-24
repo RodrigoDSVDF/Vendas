@@ -8,7 +8,7 @@ import seaborn as sns
 
 @st.cache_data# Corrigir o nome do decorador
 def importar_dados():
-    caminho_arquivo_excel = r"C:\Users\Rodrigo_df\Downloads\Vendas.xlsx"
+    caminho_arquivo_excel = (r"Vendas.xlsx")
     df = pd.read_excel(caminho_arquivo_excel, parse_dates=['Data da Venda'])
     df['Mês'] = df['Data da Venda'].dt.strftime('%B')
     df['Ano'] = df['Data da Venda'].dt.year
