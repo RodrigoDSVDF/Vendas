@@ -5,6 +5,8 @@ import altair as alt
 import plotly.express as px
 import matplotlib.pyplot as plt
 import seaborn as sns
+import openpyxl
+
 
 @st.cache_data# Corrigir o nome do decorador
 def importar_dados():
