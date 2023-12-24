@@ -1,6 +1,6 @@
-streamlit 
-pandas 
-altair 
+streamlit
+pandas
+altair
 plotly
-matplotib
+matplotlib 
 seaborn
